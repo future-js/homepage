@@ -1,0 +1,27 @@
+{
+  "name": "@future-js/homepage",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf .asset-cache",
+    "serve": "rake run",
+    "predeploy": "npm run clean",
+    "deploy": "rake deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future-js/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future-js/homepage/issues"
+  },
+  "homepage": "https://github.com/future-js/homepage#readme",
+  "devDependencies": {
+    "handie": "^1.0.8"
+  }
+}
