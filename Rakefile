@@ -40,7 +40,7 @@ task :deploy do
 
     system "touch .nojekyll"
     system "touch CNAME"
-    # system "echo future.js.org > CNAME"
+    system "echo future.js.org > CNAME"
     system "git add -A"
     system "git commit -m 'build: generate on #{current_time}'"
     system "git push origin gh-pages"
